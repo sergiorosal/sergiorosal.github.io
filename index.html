@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Mi Portafolio — Sergio</title>
+
+    <!-- Bootstrap CSS (CDN) -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- Tu SCSS compilado por Parcel -->
+    <link rel="stylesheet" href="./scss/style.scss">
+</head>
+
+<body>
+    <!-- NAV -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand font-weight-bold" href="#hero">MiPortafolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">Sobre mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header id="hero" class="vh-100 d-flex align-items-center">
+        <div class="container text-center">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h1 class="display-4 reveal">Hola, soy <span class="text-primary">Sergio Rodriguez</span></h1>
+                    <div>
+                        <a href="https://github.com/sergiorosal"><img src="./assets/images/733553.png" id="GitHub"></a>
+                        <a href="https://www.linkedin.com/in/sergio-r-350037384/"><img src="./assets/images/4138130.png" id="LinkedIn"></a>
+                    </div>
+                    
+                    <a href="#projects" class="btn btn-primary btn-lg mt-4 reveal delay-2">Ver proyectos</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ABOUT -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="mb-4">Sobre mí</h2>
+                    <p class="lead">Tengo un gran interés por la robótica y la programación, áreas que considero
+                        apasionantes por su capacidad de generar soluciones innovadoras y mejorar la vida de las
+                        personas. Disfruto desarrollando proyectos personales con Arduino y explorando diferentes
+                        lenguajes de programación, lo que me permite fortalecer mis habilidades técnicas, mi creatividad
+                        y mi capacidad de resolución de problemas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Proyectos</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card flip-card shadow-sm">
+                        <div class="flip-card-inner">
+                            <!-- Frente -->
+                            <div class="flip-card-front text-center">
+                                <img src="./assets/images/20945852.jpg" class="card-img-top" alt="Proyecto 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Sistema integral de ventas</h5>
+                                    <p class="card-text">Sistema de compra-venta con clientes registrados y precios personalizados.</p>
+                                </div>
+                            </div>
+                            <!-- Reverso -->
+                            <div class="flip-card-back card-body text-center">
+                                <h5>Detalles del proyecto</h5>
+                                <p>Un sistema que maneja la compra-venta de productos con clientes
+                                registrados con su DNI, permite ofrecer precios personalizados a cada comprador con cada
+                                producto. Los usuarios pueden introducir sus productos mediante un documento .csv.</p>
+                                <p>Herramientas: Python</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card flip-card shadow-sm">
+                        <div class="flip-card-inner">
+                            <!-- Frente -->
+                            <div class="flip-card-front text-center">
+                                <img src="./assets/images/Wavy_Tech-15_Single-08.jpg" class="card-img-top" alt="Proyecto 2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Gestión deportiva</h5>
+                                    <p class="card-text">App para gestionar partidos, temporadas y equipos de fútbol en SQL.</p>
+                                </div>
+                            </div>
+                            <!-- Reverso -->
+                            <div class="flip-card-back card-body text-center">
+                                <h5>Detalles del proyecto</h5>
+                                <p>Una app que gestiona todos los partidos, temporadas y equipos de fútbol
+                                en una base de datos sql, el usuario puede introducir datos con un documento
+                                .csv.</p>
+                                <p>Herramientas: Java, MariaDB</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card flip-card shadow-sm">
+                        <div class="flip-card-inner">
+                            <!-- Frente -->
+                            <div class="flip-card-front text-center">
+                                <img src="./assets/images/ChatbotChatMessage.jpg" class="card-img-top" alt="Proyecto 3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Discord Bot</h5>
+                                    <p class="card-text">Un bot de Discord en Python que combina moderación, entretenimiento e integración con fuentes externas de datos..</p>
+                                </div>
+                            </div>
+                            <!-- Reverso -->
+                            <div class="flip-card-back card-body text-center">
+                                <h5>Detalles del proyecto</h5>
+                                <p>Bot de Discord en Python con discord.py que ofrece comandos de moderación, interacción y reproducción de audio en
+                                    canales de voz. Permite banear usuarios, enviar saludos, frases, GIFs, números aleatorios y reproducir audios con
+                                    FFmpeg. Además, integra la API de Reddit con praw para mostrar publicaciones aleatorias y un archivo CSV de Google
+                                    Sheets para enviar frases externas en Discord. </p>
+                                <p>Herramientas: Python, discord.py, praw</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Habilidades</h2>
+            <div class="row"> <!-- Lenguajes de Programación -->
+                <div class="col-md-3">
+                    <h4 class="text-primary mb-3">Lenguajes de programación</h4>
+                    <ul class="list-unstyled">
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div> <!-- Librerías -->
+                <div class="col-md-3">
+                    <h4 class="text-primary mb-3">Librerías</h4>
+                    <ul class="list-unstyled">
+                        <li>Numpy</li>
+                        <li>Pandas</li>
+                        <li>Pymongo</li>
+                        <li>Discord.py</li>
+                    </ul>
+                </div> <!-- Herramientas -->
+                <div class="col-md-3">
+                    <h4 class="text-primary mb-3">Herramientas</h4>
+                    <ul class="list-unstyled">
+                        <li>Node.js</li>
+                        <li>Git & GitHub</li>
+                        <li>Jenkins</li>
+                    </ul>
+                </div> <!-- Bases de datos -->
+                <div class="col-md-3">
+                    <h4 class="text-primary mb-3">Bases de datos</h4>
+                    <ul class="list-unstyled">
+                        <li>SQL</li>
+                        <li>MongoDB (Compass, Atlas)</li>
+                        <li>MySQL</li>
+                        <li>MariaDB</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Contacto</h2>
+            <p>Puedes escribirme a: <a href="mailto:sergiorosal06@gmail.com">sergiorosal06@gmail.com</a></p>
+        </div>
+    </section>
+
+
+    <!-- Bootstrap JS (CDN) + dependencias -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- Tu JS -->
+    <script src="./js/main.js"></script>
+<footer class="text-center">
+    <small>&copy; <span id="year"></span> Mi Portafolio</small>
+</footer>
+
+</body>
+
+</html>
